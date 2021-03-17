@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		AB53A19D25C31A5D0030C851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53A19C25C31A5D0030C851 /* AppDelegate.swift */; };
 		AB53A19F25C31A5D0030C851 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53A19E25C31A5D0030C851 /* SceneDelegate.swift */; };
-		AB53A1A125C31A5D0030C851 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53A1A025C31A5D0030C851 /* ViewController.swift */; };
+		AB53A1A125C31A5D0030C851 /* ProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53A1A025C31A5D0030C851 /* ProductoViewController.swift */; };
 		AB53A1A425C31A5D0030C851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB53A1A225C31A5D0030C851 /* Main.storyboard */; };
 		AB53A1A625C31A5F0030C851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB53A1A525C31A5F0030C851 /* Assets.xcassets */; };
 		AB53A1A925C31A5F0030C851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB53A1A725C31A5F0030C851 /* LaunchScreen.storyboard */; };
 		AB53A1B425C31A5F0030C851 /* FormulariosATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53A1B325C31A5F0030C851 /* FormulariosATests.swift */; };
 		AB53A1BF25C31A5F0030C851 /* FormulariosAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53A1BE25C31A5F0030C851 /* FormulariosAUITests.swift */; };
+		AB53A1D025C325640030C851 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53A1CF25C325640030C851 /* Producto.swift */; };
+		AB53A1D525C339110030C851 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53A1D425C339110030C851 /* App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 		AB53A19925C31A5D0030C851 /* FormulariosA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormulariosA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB53A19C25C31A5D0030C851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB53A19E25C31A5D0030C851 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB53A1A025C31A5D0030C851 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB53A1A025C31A5D0030C851 /* ProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewController.swift; sourceTree = "<group>"; };
 		AB53A1A325C31A5D0030C851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB53A1A525C31A5F0030C851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB53A1A825C31A5F0030C851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		AB53A1BA25C31A5F0030C851 /* FormulariosAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormulariosAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB53A1BE25C31A5F0030C851 /* FormulariosAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulariosAUITests.swift; sourceTree = "<group>"; };
 		AB53A1C025C31A5F0030C851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB53A1CF25C325640030C851 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		AB53A1D425C339110030C851 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				AB53A19C25C31A5D0030C851 /* AppDelegate.swift */,
 				AB53A19E25C31A5D0030C851 /* SceneDelegate.swift */,
-				AB53A1A025C31A5D0030C851 /* ViewController.swift */,
+				AB53A1A025C31A5D0030C851 /* ProductoViewController.swift */,
 				AB53A1A225C31A5D0030C851 /* Main.storyboard */,
 				AB53A1A525C31A5F0030C851 /* Assets.xcassets */,
 				AB53A1A725C31A5F0030C851 /* LaunchScreen.storyboard */,
 				AB53A1AA25C31A5F0030C851 /* Info.plist */,
+				AB53A1CF25C325640030C851 /* Producto.swift */,
+				AB53A1D425C339110030C851 /* App.swift */,
 			);
 			path = FormulariosA;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB53A1A125C31A5D0030C851 /* ViewController.swift in Sources */,
+				AB53A1A125C31A5D0030C851 /* ProductoViewController.swift in Sources */,
+				AB53A1D025C325640030C851 /* Producto.swift in Sources */,
 				AB53A19D25C31A5D0030C851 /* AppDelegate.swift in Sources */,
+				AB53A1D525C339110030C851 /* App.swift in Sources */,
 				AB53A19F25C31A5D0030C851 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
